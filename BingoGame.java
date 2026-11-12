@@ -2,7 +2,7 @@ public class BingoGame {
     private BingoCard card;
 
     public BingoGame() {
-        int[][] nums = new int[5][5]; // 
+        int[][] nums = new int[5][5]; // Grid of 5x5
 
         for (int col = 0; col < 5; col++) {
             int min = col * 15 + 1; // Generates the minimum for each col (1-15, 16-30, 31-45, 46-60, 61-75)
